@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+    <div class="header1"><h2>Job Application Form</h2></div> 
+    <div class="header2">Please Fill Out The Form Below To Submit Your Job Application</div>
+    <br><br>
+    <div class="applybox">
+        <label for="firstname">First Name</label>
+        <input id="firstname" name="firstname" placeholder="Enter Your First Name">
+    </div>
+    <div class="applybox">
+        <label for="lastname">Last Name</label>
+        <input id="lastname" name="lastname" placeholder="Enter Your Last Name">
+    </div>
+    <div class="applybox">
+        <label for="email">Email Id</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email Id" >
+    </div>
+    <div class="applybox">
+        <label for="phone">Phone No.</label>
+        <input type="number" id="phone" name="phone" placeholder="Enter Your Phone Number">
+    </div>
+    <div class="applybox">
+        <select name="apos" id="apos">
+            Applied Position
+            <option  value="Applied Position" id="apos">Applied Position</option>
+
+        <option  value="Applied Position" id="apos">Senior Mechanical Engineer</option>
+        <option  value="Applied Position" name="apos" id="apos">Junior Mechanical Engineer</option>
+        <option value="Applied Position" name="apos" id="apos">General Manager</option>
+        <option value="Applied Position" name="apos" id="apos">Assistant General Manager</option>
+        <option value="Applied Position" name="apos" id="apos">Marketing Engineer</option>
+        <option value="Applied Position" name="apos" id="apos">Purchase Engineer</option>
+    </select>
+    </div>
+    <div class="applybox">
+    <label for="sd">Earliest Possible Starting Date</label>
+    <input type="date" name="sd" id="sd" value="2023-09-23">
+</div>
+<div class="applybox">
+    <label for="pid">Preffered Interview Date</label>
+    <input type="date" name="pid" id="pid" value="2023-09-23" >
+</div>
+<div class="applybox">
+    <label for="coverl">Cover Letter</label>
+    <textarea name="coverl" id="coverl" cols="50" rows="10" placeholder="Please do not exceed 200 words"></textarea>
+</div>
+<div class="applybox">
+    <label for="ur">Upload Resume</label>
+    <input type="file" name="ur" id=" ur">
+</div>
+<div class="applybox">
+    <label for="aod">Any Other Documents To Upload</label>
+    <input type="file" name="aod" id="aod">
+</div> 
+<div class="button_container">
+    <button type="submit">Apply Now</button>
+</div> <br> <br>
+<div class="footer">©1994-2023 Evangel Banerjee. All rights are reserved</div>
+<br><br><br>
+</div>
+</body>
+</html>
